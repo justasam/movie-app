@@ -17,3 +17,8 @@ class DataBase:
 
 tmdb = TMDB(TMDB_KEY)
 tmdb.search_tv('Lucifer')
+
+# TODO:
+# When TheMovieDB adds tv-show lists
+# Search TV Show -> Get lists -> add tv shows which are in the same list
+# That way select the recommended tv show
